@@ -1,68 +1,91 @@
-🚀 Chat Web App
+# 🚀 Chat Web App
 
-A modern chat web application built using Next.js.
+> Modern real-time chat web application built with Next.js.
 
-✨ Features
+---
 
-⚡ Built with Next.js (App Router)
+## 🇮🇩 Deskripsi (Bahasa Indonesia)
 
-🎨 Modern UI
+Chat Web App adalah aplikasi web chat modern yang dibangun menggunakan Next.js dengan arsitektur App Router.  
+Dirancang dengan tampilan yang clean, responsif, dan performa yang cepat.
 
-📱 Responsive design
+Aplikasi ini cocok sebagai project portfolio frontend/fullstack modern.
 
-🔥 Fast performance with Turbopack
+---
 
-🌐 Ready for deployment (Vercel / Hosting)
+## 🇺🇸 Description (English)
 
-🛠 Tech Stack
+Chat Web App is a modern web-based chat application built using Next.js with the App Router architecture.  
+Designed with a clean UI, responsive layout, and optimized performance.
 
-Next.js
+This project is suitable as a modern frontend/fullstack portfolio project.
 
-React
+---
 
-Tailwind CSS (if you use it)
+## ✨ Features
 
-JavaScript
+- ⚡ Built with Next.js (App Router)
+- 🎨 Modern & Clean UI
+- 📱 Fully Responsive
+- 🚀 Fast Performance
+- 🌐 Production Ready
+- 🔒 Environment Variable Support
 
-📦 Installation
+---
 
-Clone repository:
+## 🛠 Tech Stack
 
+- Next.js
+- React
+- JavaScript
+- Tailwind CSS
+- Node.js
+
+---
+
+## 📸 Screenshots
+
+> Simpan screenshot di folder: `public/screenshots/`
+
+### 🏠 Home Page
+
+![Home Screenshot](public/screenshots/home.png)
+
+### 💬 Chat Page
+
+![Chat Screenshot](public/screenshots/chat.png)
+
+---
+
+## 📦 Installation
+
+### 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/remi-ndsme/chat-me.git
-
-
-Masuk ke folder project:
-
+2️⃣ Go to Project Folder
 cd chat-me
-
-
-Install dependencies:
-
+3️⃣ Install Dependencies
 npm install
-
 🚀 Run Development Server
 npm run dev
-
-
-Open browser:
+Open in browser:
 
 http://localhost:3000
-
 🏗 Build for Production
 npm run build
 npm start
-
 📂 Project Structure
 chat-me/
 ├── app/
 ├── components/
 ├── public/
+│   └── screenshots/
 ├── styles/
-└── package.json
-
+├── package.json
+└── README.md
 🌍 Deployment
-
-You can easily deploy this project to:
+You can deploy this project easily to:
 
 Vercel
 
@@ -70,6 +93,20 @@ Netlify
 
 VPS / Custom Hosting
 
-👨‍💻 Author
+📈 Future Improvements
+Real-time WebSocket integration
 
+Authentication (JWT / OAuth)
+
+Database integration
+
+Chat room support
+
+Dark mode
+
+👨‍💻 Author
 Remi Ndsme
+GitHub: https://github.com/remi-ndsme
+
+📄 License
+This project is licensed under the MIT License.
